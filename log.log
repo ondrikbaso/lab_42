@@ -1,0 +1,36 @@
+    1  cd ..
+    2  cd lab_42
+    3  git init
+    4  git remote add origin https://github.com/ondrikbaso/lab_42.git
+    5  Git add .
+    6  git status
+    7  git commit -m “Appendix A”
+    8  git commit -m “Appendix”
+    9  Git push -u origin master
+   10  git checkout b1 -b
+   11  git branch
+   12  git checkout b1 -b1
+   13  git checkout -b b1
+   14  git branch
+   15  git checkout b1
+   16  ls
+   17  vi MyApp.java 
+   18  vi MyApp.java 
+   19  git add .
+   20  Git commit -m “changeBalance”
+   21  Git push -u origin master
+   22  ls
+   23  git branch
+   24  Git push -u origin b1
+   25  git checkout 
+   26  git checkout master
+   27  git checkout -b b2
+   28  git add .
+   29  git commit -m “changePrice”
+   30  git push -u origin b2
+   31  git checkout master 
+   32  git branch -d b1
+   33  git branch -d b2
+   34  git pull master
+   35  git pull https://github.com/ondrikbaso/lab_42
+   36  history>log.log
