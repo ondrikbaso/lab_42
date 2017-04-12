@@ -4,6 +4,11 @@ import java.util.Scanner;
 
 public class main {
 	
+	public static int changeBalance(int newValue) {
+		
+	   return newValue;
+		}
+	
 	public static int changePrice(int newPrice) {
 		System.out.println("enter price:");
 
@@ -14,6 +19,18 @@ public class main {
     	Product product = new Product("Edam", 3.3, 120);
     	
     	Scanner input = new Scanner (System.in);
+    	
+    	int newValue = 0;
+    	System.out.println("enter balance:");
+    	if (input.hasNextInt()) {
+			newValue = input.nextInt();
+			}
+    	else {
+    		System.out.println("invalid input");
+    		System.exit(0);
+    	}
+    	
+    	product.amount=changeBalance(newValue);
     	
     	System.out.println("enter price:");
     	if (input.hasNextInt()) {
