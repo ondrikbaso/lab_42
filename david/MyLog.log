@@ -1,0 +1,33 @@
+    1  git clone https://github.com/ondrikbaso/lab_42
+    2  cd lab_42/
+    3  git branch
+    4  git add .
+    5  git commit "First commit"
+    6  git commit -m "First commit"
+    7  git push -u origin master 
+    8  git checkout -b
+    9  git checkout -b b1
+   10  git status
+   11  git add .
+   12  git commit -m "Added changeBalance"
+   13* 
+   14  git checkout -b b2
+   15  git checkout -b b1
+   16  git push -u origin b1 
+   17  cd david/
+   18  vi MyApp.java 
+   19  git add.
+   20  git add .
+   21  git commit -m "Added changeBalance"
+   22  git push -u origin b1 
+   23  git checkout b2
+   24  git add .
+   25  git commit -m "Added changePrice"
+   26  git push -u origin b2
+   27  git checkout master
+   28  git branch -d b1
+   29  git branch -d b2
+   30  git commit -m "Hurray"
+   31  git push -u origin master 
+   32  git push -u origin master 
+   33  history>MyLog.log
